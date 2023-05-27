@@ -21,7 +21,7 @@
     }
 
     .container {
-      margin: 8%;
+      margin: 5%;
     }
 
     .head-txt {
@@ -30,7 +30,8 @@
     }
 
     .content {
-
+      margin: 50px;
+      height: 80vh;
     }
     .content-txt{
       font-size: 18px;
@@ -40,11 +41,26 @@
       height: 80vh;
     }
 
+    #learn-btn{
+      margin-top: 10%;
+      height:60px;
+      width:175px;
+      border-radius:20px;
+      font-size: larger;
+    }
+
+    #learn-btn:hover{
+      background-color: white;
+      color: black;
+    }
     .client {
       margin-top: 100px;
       margin-right: 5%;
       width: 105px;
       height: 30px;
+    }
+    .client-div{
+      margin-top: 20%;
     }
 
     #mobile-img-div {
@@ -119,7 +135,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-8 left-div">
+      <div class="col-8 ">
         <div class="row">
 
           <div id="mobile-img-div">
@@ -133,16 +149,17 @@
           <p class="content-txt">Get your team in sync, no matter your location. Streamline processes,
             create team rituals, and watch productivity soar.</p>
 
-          <button type="button" class="btn btn-dark">Learn More</button>
+          <button type="button" class="btn btn-dark" id="learn-btn">Learn More</button>
+          <div class="d-flex client-div">
+            <img src="./images/client-databiz.svg" alt="client-databiz" class="client" />
+            <img src="./images/client-audiophile.svg" alt="client-audiophile" class="client" />
+            <img src="./images/client-meet.svg" alt="client-meet" class="client" />
+            <img src="./images/client-maker.svg" alt="client-maker" class="client" />
+  
+  
+          </div>
         </div>
-        <div class="d-flex">
-          <img src="./images/client-databiz.svg" alt="client-databiz" class="client" />
-          <img src="./images/client-audiophile.svg" alt="client-audiophile" class="client" />
-          <img src="./images/client-meet.svg" alt="client-meet" class="client" />
-          <img src="./images/client-maker.svg" alt="client-maker" class="client" />
 
-
-        </div>
       </div>
 
       <div class="col-4">
