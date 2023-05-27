@@ -17,13 +17,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
+    .left-div{
     }
 
     .container {
@@ -35,7 +29,12 @@
 
     }
 
-    .content {}
+    .content {
+
+    }
+    .content-txt{
+      font-size: 18px;
+    }
 
     .hero-img-desk {
       height: 80vh;
@@ -50,6 +49,17 @@
 
     #mobile-img-div {
       display: none;
+    }
+    li{
+      display: flex;
+      margin-right: 2rem;
+    }
+    .list-icon{
+      float: left;
+      margin-right:0px;
+      align-items:center;
+      padding-top: 5px;
+      padding-right: 10px;;
     }
   </style>
 </head>
@@ -70,18 +80,18 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Features
             </a>
-            <ul class="dropdown-menu" aria-label="Features dropdown">
-              <li><a class="dropdown-item" href="#">Todo List</a></li>
-              <li><a class="dropdown-item" href="#">Calendar</a></li>
-              <li><a class="dropdown-item" href="#">Reminders</a></li>
-              <li><a class="dropdown-item" href="#">Planning</a></li>
+            <ul class="dropdown-menu text-center justify-content-center" aria-label="Features dropdown">
+              <li><a class="dropdown-item" href="#"><img src="images/icon-todo.svg"  alt="icon" class="list-icon" />Todo List</a></li>
+              <li><a class="dropdown-item" href="#"><img src="images/icon-calendar.svg"  alt="icon" class="list-icon"/>Calendar</a></li>
+              <li><a class="dropdown-item" href="#"><img src="images/icon-reminders.svg"  alt="icon" class="list-icon"/>Reminders</a></li>
+              <li><a class="dropdown-item" href="#"> <img src="images/icon-planning.svg" alt="icon" class="list-icon"/>Planning</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Company
             </a>
-            <ul class="dropdown-menu" aria-label="Company dropdown">
+            <ul class="dropdown-menu text-center" aria-label="Company dropdown">
               <li><a class="dropdown-item" href="#">History</a></li>
               <li><a class="dropdown-item" href="#">Our Team</a></li>
               <li><a class="dropdown-item" href="#">Blog</a></li>
@@ -109,7 +119,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-8">
+      <div class="col-8 left-div">
         <div class="row">
 
           <div id="mobile-img-div">
@@ -120,7 +130,7 @@
         <div class="content">
           <h1 class="head-txt">Make remote work</h1>
 
-          <p>Get your team in sync, no matter your location. Streamline processes,
+          <p class="content-txt">Get your team in sync, no matter your location. Streamline processes,
             create team rituals, and watch productivity soar.</p>
 
           <button type="button" class="btn btn-dark">Learn More</button>
