@@ -36,5 +36,5 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 
 - Website - [Austine Gomez](https://www.austinegomez.com)
-- Frontend Mentor - [@gomez99](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@gomez99](https://www.frontendmentor.io/home)
 
